@@ -1,0 +1,72 @@
+@import "bootstrap/dist/css/bootstrap";
+
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  color: white;
+  float: left;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: asset-url("imagew.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 475px;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: lightgray;
+}
+
+#sticky-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.page-content {
+  flex: 1 0 auto;
+  height: 100%;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.card-header {
+  font-style: italic !important;
+}
+
+.card-t {
+  text-decoration: none !important;
+}
+
+.formReturn {
+  text-decoration: none !important;
+  text-align: center !important;
+  padding-top: 20px;
+}
+
+.formbtn {
+  text-align: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
