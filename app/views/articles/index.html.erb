@@ -1,5 +1,16 @@
 
 <h1 class="text-center mt-4">Listing all articles</h1>
 
+<nav>
+  <ul class="pagination justify-content-center">
+    <%== pagy_nav(@pagy) %>
+  </ul>
+</nav>
 <%= render 'article' %>
+
+<nav>
+  <ul class="pagination justify-content-center">
+    <%== pagy_nav(@pagy) %>
+  </ul>
+</nav>
 
